@@ -32,6 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginActivity.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginBuilder.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginConfig.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginDispatchActivity.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginFragment.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginFragmentBase.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseLoginHelpFragment.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseOnLoadingListener.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseOnLoginSuccessListener.cs" />
+    <Compile Include="ParseLoginUI\src\com\parse\ui\ParseSignupFragment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

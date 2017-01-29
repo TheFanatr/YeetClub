@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>108a2598-572b-4bb0-bfd7-778ef036ee7e</ProjectGuid>
+    <ProjectGuid>{108A2598-572B-4BB0-BFD7-778EF036EE7E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>YeetClub_CP.Droid</RootNamespace>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -49,6 +49,54 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\ChangePasswordActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\CommentActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\CreateGroupActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\DispatchActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\EditGroupActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\EditProfileActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\GroupsActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\MainActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\MediaPreviewActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\ReplyActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\SearchGroupsActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\UserProfileActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\UserSettingsActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\UsersListActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\activity\YeetActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\CommentAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\FeedAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\FragmentPagerAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\GroupsAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\NotificationsAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\SearchGroupsAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\UserProfileAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\adapter\UsersListAdapter.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\application\GlobalApplication.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\application\Receiver.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\enums\NotificationType.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\fragment\FeedFragment.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\fragment\NotificationsFragment.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\fragment\UsersListFragment.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\parse\BundleConstants.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\parse\ParseConstants.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\parse\ParseHelper.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\parse\YeetClubUser.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\rss\ListListener.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\rss\RssActivity.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\rss\RssItem.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\rss\RssParseHandler.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\rss\RssReader.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\AlertDialogFragment.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\DividerItemDecoration.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\EndlessRecyclerViewScrollListener.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\FeedUtils.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\NetworkHelper.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\NotificationHelper.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\PreCachingLayoutManager.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\RecyclerViewSimpleTextViewHolder.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\ResizeableImageView.cs" />
+    <Compile Include="app\src\main\java\com\yeetclub\android\utility\YeetClubContentProvider.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
